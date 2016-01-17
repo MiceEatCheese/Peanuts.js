@@ -21,7 +21,22 @@ var peanuts = new Peanuts("1N7t4ZbxrYb6HrRearNxTp7bxWdaT1J6e", 0.001, "Tip to Pe
 Use data URI to download the document.
 
 ```js
-document.getElementById("anAlreadyCreatedPeanutsDownloadLink").setAttribute("href", "data:text/calendar;charset=utf8," + escape(peanuts));
+document.getElementById("peanutsDownloadLink").setAttribute("href", "data:text/calendar;charset=utf8," + escape(peanuts));
+```
+
+An example of a piece of code that you may insert onto a webpage to start receiving recurring monthly tips might look like this:
+
+```html
+<a download="peanuts.ics" href="" id="peanutsDownloadLink">Download a recurring iCalendar file and import it into your calendar application of choice.</a>
+
+<script src="https://cdn.rawgit.com/MiceEatCheese/Peanuts.js/master/peanuts.min.js"></script>
+
+<script>
+	// Replace the default values with your own address and other parameters that fit your needs
+	var peanuts = new Peanuts("1N7t4ZbxrYb6HrRearNxTp7bxWdaT1J6e", 0.001, "Tip to Peanuts.js", "Use it for good, not evil!", "Tip to Peanuts.js", "A monthly tip to MiceEatCheese for creating the Peanuts.js library.", "20160117T120000", "MONTHLY", false).ics();
+
+	document.getElementById("peanutsDownloadLink").setAttribute("href", "data:text/calendar;charset=utf8," + escape(peanuts));
+</script>
 ```
 
 ### Peanuts constructor
