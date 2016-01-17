@@ -1,5 +1,7 @@
 ## Peanuts.js
 
+![Peanuts.js logo](img/peanuts.png "Peanuts.js logo")
+
 **Peanuts** is a sort of recurring Bitcoin payments/donations/tips system built on top of iCalendar and Bitcoin URI. **Peanuts.js** is its reference JavaScript implementation.
 
 ### Usage
@@ -34,7 +36,7 @@ See [BIP21](https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki) and 
 
 ### Import a sample iCalendar document
 
-[Download](https://cdn.rawgit.com/MiceEatCheese/Peanuts.js/master/peanuts.ics) a sample iCalendar document created using **Peanuts.js** and import it into your calendar application of choice.
+[Download](https://cdn.rawgit.com/MiceEatCheese/Peanuts.js/master/samples/peanuts.ics) a sample iCalendar document created using **Peanuts.js** and import it into your calendar application of choice.
 
 By tipping us every month, you will support the further development of **Peanuts** and **Peanuts.js**.
 
