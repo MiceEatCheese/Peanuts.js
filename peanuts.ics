@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:github.com/MiceEatCheese/Peanuts.js
+BEGIN:VEVENT
+SUMMARY:Tip to Peanuts.js
+DESCRIPTION:A monthly tip to MiceEatCheese for creating the Peanuts.js library.
+URL:bitcoin:1N7t4ZbxrYb6HrRearNxTp7bxWdaT1J6e?amount=0.001&label=Tip%20to%20Peanuts.js&message=Use%20it%20for%20good%2C%20not%20evil!
+DTSTART:20160117T120000
+RRULE:FREQ=MONTHLY
+END:VEVENT
+END:VCALENDAR
