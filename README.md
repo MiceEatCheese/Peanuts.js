@@ -2,7 +2,7 @@
 
 ![Peanuts.js logo](img/peanuts.png "Peanuts.js logo")
 
-**Peanuts** is a sort of recurring Bitcoin payments/donations/tips system built on top of iCalendar and Bitcoin URI. **Peanuts.js** is its reference JavaScript implementation.
+**P** and **E** from *payments*, **A** and **N** from *donations*, **U** from *recurring*, and **T** and **S** from *tips*. *PEANUTS*, or **Peanuts**, is a sort of recurring Bitcoin payments/donations/tips system built on top of iCalendar and Bitcoin URI. **Peanuts.js** is its reference JavaScript implementation.
 
 ### Usage
 
